@@ -3,9 +3,6 @@ This Repository contains a python based application that implements Photo Ocr, P
 
 The Multitasker Project is a Machine Learning project made in python language and  UI made in PyQt framework. 
 The parts of the app are:
-- ### Photo Ocr
-  The Photo Ocr is implemented in machine learning with the help of **SVM** library of skLearn and the **OpenCv** for image manipution. 
-  The Photo Ocr application gives nearly 80% accuray on the digital printed cleaned text. The accuracy of prediction decrease as the   level of noise increases.
 
 - ### Pdf Scanner
   The pdf scanner takes the images from the user in .png , .jpg , .jpeg, and .gif and then using the  Py2Pdf Python Library convert it to the pdf files. The features of this application are that you can add ,remove, change the order of images dynamically. After you convert it to pdf you can easily save in any directory.

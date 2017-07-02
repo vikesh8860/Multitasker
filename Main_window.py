@@ -440,6 +440,7 @@ class Photo_ocr_class(QtGui.QWidget):
         temp_file = open("C:\\Github\\Multitasker\\Data\\result.txt",'r')
         text = temp_file.read()
         file.write(text)
+        temp_file.close()
         os.remove("C:\\Github\\Multitasker\\Data\\result.txt")
         file.close()
 
